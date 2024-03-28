@@ -1,6 +1,8 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 
+import ParticlesComponent from './components/Particles';
+
 import Navbar from './components/Navbar';
 import AboutMe from './components/AboutMe';
 import Education from './components/Education';
@@ -15,6 +17,7 @@ function App() {
   
   return (
     <>
+      <ParticlesComponent id="particles" />
       <Navbar />
       <AboutMe /> 
       <Education />
