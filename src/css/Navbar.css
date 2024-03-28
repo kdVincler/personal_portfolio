@@ -1,0 +1,90 @@
+nav {
+    box-sizing: border-box;
+    width: 100vw;
+    height: 15vh;
+    position: absolute;
+    top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.almostLogo {
+    font-family: 'Kaiti SC';
+    font-weight: 100;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+}
+
+ul { 
+    padding: 0; 
+    list-style: none; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    text-align: center;
+    margin: 5px;
+}
+
+li { 
+    padding: 15px 0;
+}
+
+li a {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+
+    
+    padding: 15px 10px;
+    position: relative;
+}
+
+li a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #ffffff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+li a:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+
+@media only screen and (max-width: 1024px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        height: fit-content;
+    }
+
+    .almostLogo {
+        margin-top: 20px;
+    }
+
+    ul {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    li a {
+        font-size: small;
+    }
+}
