@@ -25,7 +25,7 @@ function Footer ({showing}) {
                         <p>My GitHub</p>
                     </a>
                     <a 
-                        href='www.linkedin.com/in/konrad-dominik-vincler-55753225a'
+                        href='https://www.linkedin.com/in/konrad-dominik-vincler-55753225a/'
                         target='_blank'
                     >
                         <img src={linkedPic} alt="LinkedIn" />
