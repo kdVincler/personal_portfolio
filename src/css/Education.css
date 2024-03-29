@@ -1,30 +1,3 @@
 .certs{
     margin-top: 5vh;
 }
-
-.educard {
-    margin-top: 3vh;
-    margin-bottom: 1.5vh;
-
-    border: 2px solid white;
-    border-radius: 10px;
-    padding: 10px;
-}
-
-.time{
-    font-style: italic;
-    font-size: small;
-    margin-bottom: 0;
-}
-
-.school{
-    font-weight: bolder;
-    margin-top: 0.3vh;
-    margin-bottom: 0.3vh;
-}
-
-.degree {
-    margin-top: 0;
-    margin-bottom: 0.5vh;
-    font-size: medium;
-}

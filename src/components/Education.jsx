@@ -52,11 +52,11 @@ function Education ({showing}) {
 
 function EduCard ({time, school, degree, comments}) {
     return(
-        <section className='educard'>
-            <p className='time'>{time}</p>
-            <h2 className='school'>{school}</h2>
-            <h3 className='degree'>{degree}</h3>
-            <p className='comments' 
+        <section className='card'>
+            <p className='one'>{time}</p>
+            <h2 className='two'>{school}</h2>
+            <h3 className='three'>{degree}</h3>
+            <p className='four' 
                 dangerouslySetInnerHTML={{ __html: comments}}></p>
         </section>
     )

@@ -24,11 +24,11 @@ function Experience ({showing}) {
 
 function ExpCArd ({time, workplace, position, comments}) {
     return(
-        <section className='expcard'>
-            <p className='time'>{time}</p>
-            <h2 className='workplace'>{workplace}</h2>
-            <h3 className='position'>{position}</h3>
-            <p className='comments' 
+        <section className='card'>
+            <p className='one'>{time}</p>
+            <h2 className='two'>{workplace}</h2>
+            <h3 className='three'>{position}</h3>
+            <p className='four' 
                 dangerouslySetInnerHTML={{ __html: comments}}></p>
         </section>
     )
