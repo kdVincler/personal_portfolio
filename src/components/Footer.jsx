@@ -1,6 +1,8 @@
 import '../css/Footer.css';
 
-function Footer () {
+function Footer ({showing}) {
+    if (!showing) return null;
+    
     return(
         <>
         

@@ -1,6 +1,8 @@
 import '../css/Navbar.css';
 
-function Navbar () {
+function Navbar ({showing}) {
+    if (!showing) return null;
+    
     return(
         <nav>
             <h1 className='almostLogo'><a href=''>Konrad Vincler</a></h1>

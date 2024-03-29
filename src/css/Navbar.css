@@ -79,6 +79,7 @@ li a:hover:after {
     nav {
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         height: fit-content;
     }
 
@@ -94,5 +95,9 @@ li a:hover:after {
 
     li a {
         font-size: small;
+    }
+
+    .almostLogo{
+        text-align: center;
     }
 }

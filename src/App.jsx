@@ -1,6 +1,8 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 
+import React, { useState } from 'react';
+
 import ParticlesComponent from './components/Particles';
 
 import Navbar from './components/Navbar';
@@ -14,16 +16,25 @@ import './css/App.css'
 
 function App() {
   document.title = "Konrad Vincler Portfolio";
-  
+  const [showing, setShowing] = useState(true);
+
   return (
     <>
       <ParticlesComponent id="particles" />
-      <Navbar />
-      <AboutMe /> 
-      <Education />
-      <Experience />
-      <Projects />
-      <Footer />
+      <Navbar showing={showing}/>
+      <AboutMe showing={showing}/> 
+      <Education showing={showing}/>
+      <Experience showing={showing}/>
+      <Projects showing={showing}/>
+      <Footer showing={showing}/>
+      <div className='easterEgg'>
+        <button 
+          className='eetoggle' 
+          onClick={() => {setShowing(!showing)}}
+        >
+          Click me for fun!
+        </button>
+      </div>
     </>
     /*
     <div>

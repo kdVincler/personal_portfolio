@@ -1,6 +1,8 @@
 import '../css/Projects.css';
 
-function Projects () {
+function Projects ({showing}) {
+    if (!showing) return null;
+    
     return(
         <>
         

@@ -19,3 +19,7 @@ body {
   flex-direction: column;
   justify-content: start;
 }
+
+.easterEgg {
+  position: relative;
+}

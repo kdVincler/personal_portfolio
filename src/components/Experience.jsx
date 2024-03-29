@@ -1,6 +1,8 @@
 import '../css/Experience.css';
 
-function Experience () {
+function Experience ({showing}) {
+    if (!showing) return null;
+    
     return(
         <>
         

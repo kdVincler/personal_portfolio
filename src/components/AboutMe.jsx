@@ -1,6 +1,8 @@
 import '../css/AboutMe.css';
 
-function AboutMe () {
+function AboutMe ({showing}) {
+    if (!showing) return null;
+    
     return(
         <section className='tile aboutme'>
             <div className='typewriter'>
