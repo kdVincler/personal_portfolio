@@ -1,13 +1,13 @@
 nav {
     box-sizing: border-box;
-    width: 100vw;
+    width: 100%;
     height: 15vh;
     z-index: 1;
     padding-left: 20px;
     padding-right: 20px;
     background-color: black;
 
-    position: relative; /* needed because otherwise the  */
+    position: relative; /* needed because otherwise it doesn't show */
 
 
     display: flex;
