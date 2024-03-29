@@ -24,13 +24,9 @@ function AboutMe ({showing}) {
                 people.
             </p>
             <div className='cv'> 
-                <div className='container'>
-                    <div className='btn' >
-                        <a target='_blank' href="CV_portfolio.pdf">
-                            CV
-                        </a>
-                    </div>
-                </div>
+                <a target='_blank' href="CV_portfolio.pdf" className='bn5'>
+                    CV
+                </a>
             </div>
         </section>
 )
