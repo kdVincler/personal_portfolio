@@ -33,6 +33,16 @@ body {
     color: white;
 }
 
+.sectionHead {
+    font-weight: 400;
+    font-size: x-large;
+    font-weight: bolder;
+
+    color: #f21111;
+    text-decoration: underline;
+}
+
+
 .container {
   position: relative;
   margin-top: 1.5vh;

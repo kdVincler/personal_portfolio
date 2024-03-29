@@ -1,12 +1,3 @@
-.sectionHead {
-    font-weight: 400;
-    font-size: x-large;
-    font-weight: bolder;
-
-    color: #f21111;
-    text-decoration: underline;
-}
-
 .certs{
     margin-top: 5vh;
 }
@@ -36,5 +27,4 @@
     margin-top: 0;
     margin-bottom: 0.5vh;
     font-size: medium;
-
 }

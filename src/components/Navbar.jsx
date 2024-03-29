@@ -8,7 +8,7 @@ function Navbar ({showing}) {
             <h1 className='almostLogo'><a href=''>Konrad Vincler</a></h1>
             <ul>
                 <li><a href="#edu">Education</a></li>
-                <li><a href="#">Experience</a></li>
+                <li><a href="#exp">Experience</a></li>
                 <li><a href="#">Projects</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
