@@ -5,7 +5,7 @@ function Projects ({showing}) {
     if (!showing) return null;
     
     return(
-        <a id='proj'>
+        <div id='proj'>
             <section className='tile proj'>
                 <h1 className='sectionHead'>
                     Projects
@@ -25,7 +25,7 @@ function Projects ({showing}) {
                     "
                 />
             </section>
-        </a>
+        </div>
         )
 }
 

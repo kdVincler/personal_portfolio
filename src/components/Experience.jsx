@@ -4,7 +4,7 @@ function Experience ({showing}) {
     if (!showing) return null;
     
     return(
-        <a id='exp'>
+        <div id='exp'>
             <section className='tile exp'>
                 <h1 className='sectionHead'>
                     Experience
@@ -17,7 +17,7 @@ function Experience ({showing}) {
                             Logic and Discrete Structures and Automata and Formal Languages"
                 />
             </section>
-        </a>
+        </div>
        
     )
 }

@@ -7,7 +7,7 @@ function Footer ({showing}) {
     if (!showing) return null;
     
     return(
-        <a id='contact'>
+        <div id='contact'>
             <section className='foot'>
                 <div className="flexContainer">
                     <a 
@@ -36,7 +36,7 @@ function Footer ({showing}) {
                     © 2024 Konrad Dominik Vincler
                 </p>
             </section>
-        </a>
+        </div>
     )
 }
 

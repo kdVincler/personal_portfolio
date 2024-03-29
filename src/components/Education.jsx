@@ -8,7 +8,7 @@ function Education ({showing}) {
     if (!showing) return null;
     
     return(
-        <a id='edu'>
+        <div id='edu'>
             <section className='tile education'>
                 <h1 className='sectionHead edu'>
                     Education
@@ -46,7 +46,7 @@ function Education ({showing}) {
                                 CEFR level: C2"
                 />  
             </section>
-        </a>
+        </div>
     )
 }
 
