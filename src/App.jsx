@@ -28,12 +28,14 @@ function App() {
       <Projects showing={showing}/>
       <Footer showing={showing}/>
       <div className='easterEgg'>
-        <button 
-          className='eetoggle' 
+        <div 
+          className='btn' 
           onClick={() => {setShowing(!showing)}}
         >
-          Click me for fun!
-        </button>
+          <a id="placeholder">
+            Click me for fun!
+          </a>
+        </div>
       </div>
     </>
     /*
