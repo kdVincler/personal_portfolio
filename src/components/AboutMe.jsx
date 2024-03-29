@@ -12,7 +12,7 @@ function AboutMe ({showing}) {
                 My name is Konrad Dominik Vincler and currently I am 
                 a university student in my penultimate year for my Bachelors
                 degree in Computer Science. During my first year, <br /> I was able to
-                achieve a First class grade of an 89% average module grade.
+                achieve a First class grade of an 88% average module grade.
             </p>
             <p className='intro'>
                 Apart from studying, I am striving to improve myself by gaining
