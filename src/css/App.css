@@ -42,12 +42,6 @@ body {
     text-decoration: underline;
 }
 
-
-.container {
-  position: relative;
-  margin-top: 1.5vh;
-}
-
 .card {
     margin-top: 3vh;
     margin-bottom: 1.5vh;
@@ -74,6 +68,13 @@ body {
     margin-bottom: 0.5vh;
     font-size: medium;
 }
+
+.container {
+	position: relative;
+	margin-top: 1.5vh;
+	margin-bottom: 40px;
+	align-self: center;
+  }
 
 /*
   from:

@@ -10,7 +10,7 @@ function Navbar ({showing}) {
                 <li><a href="#edu">Education</a></li>
                 <li><a href="#exp">Experience</a></li>
                 <li><a href="#proj">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     )
