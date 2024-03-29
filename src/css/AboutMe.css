@@ -22,6 +22,12 @@
     font-weight: bold;
 }
 
+.cv{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5vh;
+}
+
 /*
     Typewriting animation, from:
     https://css-tricks.com/snippets/css/typewriter-effect/

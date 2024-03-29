@@ -20,7 +20,7 @@ body {
   justify-content: start;
 }
 
-.easterEgg {
+.container {
   position: relative;
   margin-top: 1.5vh;
 }
@@ -32,20 +32,20 @@ body {
     https://codepen.io/katarzynamarta/pen/rNdbbVq
 */
 
-.easterEgg .btn {
+.container .btn {
 	position: relative;
 	top: 0;
 	left: 0;
 	width: 15vw;
 	height: 3vh;
-  font-size: 1.3vh;
-  text-align: center;
+	font-size: 1.3vh;
+	text-align: center;
 	margin: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-.easterEgg .btn a {
+.container .btn a {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -69,10 +69,10 @@ body {
 	transition: 0.5s;
 	backdrop-filter: blur(15px);
 }
-.easterEgg .btn:hover a {
+.container .btn:hover a {
 	letter-spacing: 3px;
 }
-.easterEgg .btn a::before {
+.container .btn a::before {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -84,10 +84,10 @@ body {
 	transition: 0.5s;
 	filter: blur(0px);
 }
-.easterEgg .btn:hover a::before {
+.container .btn:hover a::before {
 	transform: skewX(45deg) translate(200px);
 }
-.easterEgg .btn::before {
+.container .btn::before {
 	content: "";
 	position: absolute;
 	left: 50%;
@@ -100,17 +100,17 @@ body {
 	transition: 0.5s;
 	transition-delay: 0.5;
 }
-.easterEgg .btn:hover::before /*lightup button*/ {
+.container .btn:hover::before /*lightup button*/ {
 	bottom: 0;
 	height: 50%;
 	width: 80%;
 	border-radius: 30px;
 }
 
-.easterEgg .btn::after {
+.container .btn::after {
 	content: "";
 	position: absolute;
-	left: 50%;
+	left: 53.5%;
 	transform: translatex(-50%);
 	top: -5px;
 	width: 30px;
@@ -120,15 +120,38 @@ body {
 	transition: 0.5s;
 	transition-delay: 0.5;
 }
-.easterEgg .btn:hover::after /*lightup button*/ {
+.container .btn:hover::after /*lightup button*/ {
 	top: 0;
 	height: 50%;
 	width: 80%;
 	border-radius: 30px;
 }
-.easterEgg .btn:nth-child(1)::before, /*chnage 1*/
-.easterEgg .btn:nth-child(1)::after {
-	background: #ff1f71;
-	box-shadow: 0 0 5px #ff1f71, 0 0 15px #ff1f71, 0 0 30px #ff1f71,
-		0 0 60px #ff1f71;
+.container .btn:nth-child(1)::before, /*chnage 1*/
+.container .btn:nth-child(1)::after {
+	background: #f21111;
+	box-shadow: 0 0 5px #f21111, 0 0 15px #f21111, 0 0 30px #f21111,
+		0 0 60px #f21111;
+}
+
+
+/* 
+	aligning the highlighter on buttons to the middle in
+	different configurations
+*/
+@media only screen and (max-width: 425px) {
+	.container .btn::after {
+		left: 62%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.container .btn::after {
+		left: 57%;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.container .btn::after {
+		left: 55%;
+	}
 }

@@ -23,6 +23,15 @@ function AboutMe ({showing}) {
                 and pieces of software that have a positive impact on millions of
                 people.
             </p>
+            <div className='cv'> 
+                <div className='container'>
+                    <div className='btn' >
+                        <a target='_blank' href="CV_portfolio.pdf">
+                            CV
+                        </a>
+                    </div>
+                </div>
+            </div>
         </section>
 )
 }

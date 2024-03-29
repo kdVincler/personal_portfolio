@@ -27,7 +27,7 @@ function App() {
       <Experience showing={showing}/>
       <Projects showing={showing}/>
       <Footer showing={showing}/>
-      <div className='easterEgg'>
+      <div className='container'>
         <div 
           className='btn' 
           onClick={() => {setShowing(!showing)}}
