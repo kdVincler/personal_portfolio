@@ -15,7 +15,7 @@ import Footer from './components/Footer';
 import './css/App.css'
 
 function App() {
-  document.title = "Konrad Vincler Portfolio";
+  document.title = "Konrad Vincler";
   const [showing, setShowing] = useState(true);
 
   return (
