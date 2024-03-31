@@ -11,3 +11,6 @@ By accessing this site, the user will be able to see:
 
 
 This project was made using Vite and React and utalising tsParticles.
+
+Status of the deployed site on Netlify: <br />
+[![Netlify Status](https://api.netlify.com/api/v1/badges/10ed321a-721f-4c17-b2e9-5a414abc4887/deploy-status)](https://app.netlify.com/sites/konradvincler/deploys)
