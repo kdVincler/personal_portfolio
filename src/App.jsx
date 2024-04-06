@@ -18,23 +18,10 @@ function App() {
   document.title = "Konrad Vincler";
   const [showing, setShowing] = useState(true);
 
-  /*
-    From: https://stackoverflow.com/a/75495293
-  */
+ 
   const [dark, setDark] = useState(false);
 
-  useEffect(() => {
-    const mq = window.matchMedia(
-      "(prefers-color-scheme: dark)"
-    );
-  
-    if (mq.matches) {
-      setDark(true);
-    }
-  
-    // This callback will fire if the perferred color scheme changes without a reload
-    mq.addEventListener("change", (evt) => setDark(evt.matches));
-  }, []);
+
 
   /*
    from: 
