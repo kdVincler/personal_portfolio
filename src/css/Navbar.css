@@ -100,4 +100,14 @@ li a:hover:after {
     .almostLogo{
         text-align: center;
     }
+    
+    .modeToggle {
+        padding: 15px 10px;
+    }
+}
+
+.modeToggle {
+    max-height: 30px;
+    align-self: center;
+    cursor: pointer;
 }

@@ -18,7 +18,7 @@ import { loadSlim } from "@tsparticles/slim"; // if you are going to use `loadSl
 
 
 
-const ParticlesComponent = (id) => {
+const ParticlesComponent = ({id, dark}) => {
 
   const [init, setInit] = useState(false);
   // this should be run only once per application lifetime
@@ -45,7 +45,7 @@ const ParticlesComponent = (id) => {
     () => ({
       background: {
         color: {
-          value: "#f21111",
+          value: `${dark ? ("#000000") : ("#f21111")}`,
         },
       },
       fpsLimit: 120,
@@ -113,7 +113,7 @@ const ParticlesComponent = (id) => {
       },
       detectRetina: true,
     }),
-    [],
+    [dark],
   );
 
 

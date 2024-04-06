@@ -1,7 +1,7 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import ParticlesComponent from './components/Particles';
 
@@ -18,15 +18,50 @@ function App() {
   document.title = "Konrad Vincler";
   const [showing, setShowing] = useState(true);
 
+  /*
+    From: https://stackoverflow.com/a/75495293
+  */
+  const [dark, setDark] = useState(false);
+
+  useEffect(() => {
+    const mq = window.matchMedia(
+      "(prefers-color-scheme: dark)"
+    );
+  
+    if (mq.matches) {
+      setDark(true);
+    }
+  
+    // This callback will fire if the perferred color scheme changes without a reload
+    mq.addEventListener("change", (evt) => setDark(evt.matches));
+  }, []);
+
+  /*
+   from: 
+   https://syntackle.com/blog/setting-background-color-of-body-dynamically-in-react-5tVYr3/#:~:text=Set%20a%20custom%20property%20in,it%20will%20probably%20be%20index.
+  */
+  function changeBodyColour ({colour}) {
+    document.documentElement.style.setProperty('--bodyColour', colour);
+  }
+
+  useEffect(() => {
+    if (dark) {
+      changeBodyColour({colour: "#000000"})
+    }
+    else {
+      changeBodyColour({colour: "#f21111"})
+    }
+  }, [dark])
+
   return (
     <>
-      <ParticlesComponent id="particles" />
-      <Navbar showing={showing}/>
+      <ParticlesComponent id="particles" dark={dark}/>
+      <Navbar showing={showing} dark={dark} setDark={setDark}/>
       <AboutMe showing={showing}/> 
       <Education showing={showing}/>
       <Experience showing={showing}/>
       <Projects showing={showing}/>
-      <Footer showing={showing}/>
+      <Footer showing={showing} dark={dark}/>
       <div className='container'>
         <div 
           className='btn' 
