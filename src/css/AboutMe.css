@@ -134,3 +134,9 @@
     from, to { border-color: transparent }
     50% { border-color: var(--sectionHeaderColour); }
   }
+
+  @media only screen and (max-width: 1024px){
+    .typewriter h1{
+      font-size: 22px;
+    }
+  }
