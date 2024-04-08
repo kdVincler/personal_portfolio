@@ -55,7 +55,10 @@ function App() {
           onClick={() => {setShowing(!showing)}}
         >
           <a id="placeholder">
-            Click me for fun!
+            {
+              showing ? ("Click me for fun!") : ("Back")
+            }
+            
           </a>
         </div>
       </div>
