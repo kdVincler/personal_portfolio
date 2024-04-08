@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-	--bodyColour: "#f21111";
+	--bodyColour: #094074;
+	--tileColour: #3C6997;
+	--sectionHeaderColour: #FFDD4A;
+	--textColour: #ffffff;
 }
 
 html {
@@ -37,9 +40,9 @@ body {
     margin-top: 10vh;
     height: fit-content;
     padding: 20px 20px;
-    background-color: black;
+    background-color: var(--tileColour);
     border-radius: 20px;
-    color: white;
+    color: var(--textColour);
 }
 
 .sectionHead {
@@ -47,7 +50,7 @@ body {
     font-size: x-large;
     font-weight: bolder;
 
-    color: #f21111;
+    color: var(--sectionHeaderColour);
     text-decoration: underline;
 }
 
@@ -55,7 +58,7 @@ body {
     margin-top: 3vh;
     margin-bottom: 1.5vh;
 
-    border: 2px solid white;
+    border: 2px solid var(--textColour);
     border-radius: 10px;
     padding: 10px;
 }
@@ -92,7 +95,7 @@ body {
   ->
     https://codepen.io/katarzynamarta/pen/rNdbbVq
 */
-
+/*
 .container .btn {
 	position: relative;
 	top: 0;
@@ -161,7 +164,7 @@ body {
 	transition: 0.5s;
 	transition-delay: 0.5;
 }
-.container .btn:hover::before /*lightup button*/ {
+.container .btn:hover::before /*lightup button {
 	bottom: 0;
 	height: 50%;
 	width: 80%;
@@ -181,13 +184,13 @@ body {
 	transition: 0.5s;
 	transition-delay: 0.5;
 }
-.container .btn:hover::after /*lightup button*/ {
+.container .btn:hover::after /*lightup button {
 	top: 0;
 	height: 50%;
 	width: 80%;
 	border-radius: 30px;
 }
-.container .btn:nth-child(1)::before, /*chnage 1*/
+.container .btn:nth-child(1)::before, /*chnage 1
 .container .btn:nth-child(1)::after {
 	background: var(--bodyColour);
 	box-shadow: 0 0 5px var(--bodyColour), 0 0 15px var(--bodyColour), 0 0 30px var(--bodyColour),
@@ -198,7 +201,7 @@ body {
 /* 
 	aligning the highlighter on buttons to the middle in
 	different configurations
-*/
+
 @media only screen and (max-width: 425px) {
 	.container .btn::after {
 		left: 62%;
@@ -215,4 +218,4 @@ body {
 	.container .btn::after {
 		left: 55%;
 	}
-}
+} */

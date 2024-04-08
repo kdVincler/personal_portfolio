@@ -1,9 +1,7 @@
 import '../css/Projects.css';
 import RWAT from '../assets/RWA_thumbnail.png'
 
-function Projects ({showing}) {
-    if (!showing) return null;
-    
+function Projects () {
     return(
         <div id='proj'>
             <section className='tile proj'>

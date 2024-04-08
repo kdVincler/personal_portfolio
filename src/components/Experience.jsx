@@ -1,8 +1,6 @@
 import '../css/Experience.css';
 
-function Experience ({showing}) {
-    if (!showing) return null;
-    
+function Experience () {
     return(
         <div id='exp'>
             <section className='tile exp'>

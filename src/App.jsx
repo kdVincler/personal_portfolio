@@ -3,8 +3,6 @@
 
 import React, { useState, useEffect } from 'react';
 
-import ParticlesComponent from './components/Particles';
-
 import Navbar from './components/Navbar';
 import AboutMe from './components/AboutMe';
 import Education from './components/Education';
@@ -16,52 +14,45 @@ import './css/App.css'
 
 function App() {
   document.title = "Konrad Vincler";
-  const [showing, setShowing] = useState(true);
 
  
-  const [dark, setDark] = useState(false);
+  // const [dark, setDark] = useState(false);
 
 
 
-  /*
-   from: 
-   https://syntackle.com/blog/setting-background-color-of-body-dynamically-in-react-5tVYr3/#:~:text=Set%20a%20custom%20property%20in,it%20will%20probably%20be%20index.
-  */
-  function changeBodyColour ({colour}) {
-    document.documentElement.style.setProperty('--bodyColour', colour);
-  }
+  // /*
+  //  from: 
+  //  https://syntackle.com/blog/setting-background-color-of-body-dynamically-in-react-5tVYr3/#:~:text=Set%20a%20custom%20property%20in,it%20will%20probably%20be%20index.
+  // */
+  // function changeBodyColour ({dark}) {
+  //   if (dark) {
+  //     document.documentElement.style.setProperty('--bodyColour', "#12233a");
+  //     document.documentElement.style.setProperty('--tileColour', "#23354a");
+  //     document.documentElement.style.setProperty('--sectionHeaderColour', "#78682a");
+  //     document.documentElement.style.setProperty('--textColour', "#777777");
+  //   }
+  //   else {
+  //     document.documentElement.style.setProperty('--bodyColour', "#094074");
+  //     document.documentElement.style.setProperty('--tileColour', "#3C6997");
+  //     document.documentElement.style.setProperty('--sectionHeaderColour', "#FFDD4A");
+  //     document.documentElement.style.setProperty('--textColour', "#ffffff");
+  //   }
+  // }
 
-  useEffect(() => {
-    if (dark) {
-      changeBodyColour({colour: "#000000"})
-    }
-    else {
-      changeBodyColour({colour: "#f21111"})
-    }
-  }, [dark])
+  // useEffect(() => {
+  //   changeBodyColour({dark: dark})
+  // }, [dark])
 
   return (
     <>
-      <ParticlesComponent id="particles" dark={dark}/>
-      <Navbar showing={showing} dark={dark} setDark={setDark}/>
-      <AboutMe showing={showing}/> 
-      <Education showing={showing}/>
-      <Experience showing={showing}/>
-      <Projects showing={showing}/>
-      <Footer showing={showing} dark={dark}/>
-      <div className='container'>
-        <div 
-          className='btn' 
-          onClick={() => {setShowing(!showing)}}
-        >
-          <a id="placeholder">
-            {
-              showing ? ("Click me for fun!") : ("Back")
-            }
-            
-          </a>
-        </div>
-      </div>
+      {/* dark={dark} setDark={setDark} */}
+      <Navbar />
+      <AboutMe /> 
+      <Education />
+      <Experience />
+      <Projects />
+      <Footer />
+      {/* dark={dark} */}
     </>
     /*
     <div>
