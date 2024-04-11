@@ -1,5 +1,6 @@
 import '../css/Projects.css';
 import RWAT from '../assets/RWA_thumbnail.png'
+import FDME from '../assets/FDME_thumbnail.png'
 
 function Projects () {
     return(
@@ -17,9 +18,25 @@ function Projects () {
                             Deployed site
                         </a> <br />
                         <a href='https://github.com/kdVincler/weather-app' target='_blank'>
-                            GitHub repositories
+                            GitHub repository
                         </a> <br />
                         A weather app made in React for outdoor enthusiasts
+                    "
+                />
+                <ProjCard
+                    time="2024"
+                    name="FDM Expenses App"
+                    image={FDME}
+                    description=" 
+                        <b> Project is not deployed </b>
+                        <br />
+                        <a href='https://github.com/kdVincler/fdm-expenses-app-client.git' target='_blank'>
+                            GitHub repository - Client side
+                        </a> <br />
+                        <a href='https://github.com/kdVincler/fdm-expenses-app-server.git' target='_blank'>
+                            GitHub repository - Server side
+                        </a> <br />
+                        An application to submit and approve business expense claims for FDM.
                     "
                 />
             </section>
