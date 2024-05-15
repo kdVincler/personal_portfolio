@@ -20,7 +20,8 @@ function Projects () {
                         <a href='https://github.com/kdVincler/weather-app' target='_blank'>
                             GitHub repository
                         </a> <br />
-                        A weather app made in React for outdoor enthusiasts
+                        A weather app made in React for outdoor enthusiasts <br />
+                        <i> Using: </i> JavaScript, HTML, CSS, JSX and the React framework
                     "
                 />
                 <ProjCard
@@ -36,7 +37,9 @@ function Projects () {
                         <a href='https://github.com/kdVincler/fdm-expenses-app-server.git' target='_blank'>
                             GitHub repository - Server side
                         </a> <br />
-                        An application to submit and approve business expense claims for FDM.
+                        An application to submit and approve business expense claims for FDM. <br />
+                        <i> Using - Client side: </i> JavaScript, HTML, CSS, JSX and the React framework <br />
+                        <i> Using - Server side: </i> Python, Flask and PostgreSQL
                     "
                 />
             </section>
