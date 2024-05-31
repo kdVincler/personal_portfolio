@@ -1,6 +1,7 @@
 import '../css/Projects.css';
 import RWAT from '../assets/RWA_thumbnail.png'
 import FDME from '../assets/FDME_thumbnail.png'
+import FLXO from '../assets/FlipXO_thumbnail.png'
 
 function Projects () {
     return(
@@ -40,6 +41,22 @@ function Projects () {
                         An application to submit and approve business expense claims for FDM. <br />
                         <i> Using - Client side: </i> JavaScript, HTML, CSS, JSX and the React framework <br />
                         <i> Using - Server side: </i> Python, Flask and PostgreSQL
+                    "
+                />
+                <ProjCard
+                    time="2024"
+                    name="FlipXO"
+                    image={FLXO}
+                    description=" 
+                        <a href='https://snack.expo.dev/@kdvincler/flipxo---snack-version' target='_blank'>
+                            'Deployed' version on Expo Snack 
+                        </a> <br /> 
+                        (Scan the QR code to download Expo Go and run the app on your device) <br /> 
+                        <a href='https://github.com/kdVincler/FlipXO.git' target='_blank'>
+                            GitHub repository
+                        </a> <br />
+                        My very first React Native project, a tic-tac-toe game on IOS/Android accommodating 2 players per device. <br />
+                        <i> Using: </i> JavaScript in the React Native framework using Expo
                     "
                 />
             </section>
