@@ -2,6 +2,7 @@ import '../css/Projects.css';
 import RWAT from '../assets/RWA_thumbnail.png'
 import FDME from '../assets/FDME_thumbnail.png'
 import FLXO from '../assets/FlipXO_thumbnail.png'
+import DLVT from '../assets/dlv_thumbnail.png'
 
 function Projects () {
     return(
@@ -57,6 +58,22 @@ function Projects () {
                         </a> <br />
                         My very first React Native project, a tic-tac-toe game on IOS/Android accommodating 2 players per device. <br />
                         <i> Using: </i> JavaScript in the React Native framework using Expo
+                    "
+                />
+                <ProjCard
+                    time="2024"
+                    name="Professional website for Doroti Vincler"
+                    image={DLVT}
+                    description=" 
+                        <a href='https://dorotivincler.com/' target='_blank'>
+                            Deployed site
+                        </a> <br />
+                        <a href='https://github.com/kdVincler/DLV_teaching.git' target='_blank'>
+                            GitHub repository
+                        </a> <br />
+                        A website as a place to advertise the flute playing and teaching of Doroti Vincler, 
+                        with a contact form which automatically sends the information inputted to her email address, using the EmailJS library. <br />
+                        <i> Using: </i> JavaScript, CSS, JSX with the React framework.
                     "
                 />
             </section>
