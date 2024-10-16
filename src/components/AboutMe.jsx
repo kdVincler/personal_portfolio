@@ -8,7 +8,7 @@ function AboutMe () {
             </div>
             <p className='intro'>
                 My name is Konrad Dominik Vincler and currently I am 
-                a university student in my penultimate year for my Bachelors
+                a university student in my final year for my Bachelors
                 degree in Computer Science. During my first year, <br /> I was able to
                 achieve a First class grade of an 88% average module grade.
             </p>
