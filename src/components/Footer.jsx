@@ -34,7 +34,7 @@ function Footer ({dark}) {
                     </a>
                 </div>
                 <p className='TM'>
-                    © 2024 Konrad Dominik Vincler
+                    Copyright © {new Date().getFullYear()} - Konrad Vincler
                 </p>
             </section>
         </div>

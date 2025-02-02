@@ -3,6 +3,8 @@ import RWAT from '../assets/RWA_thumbnail.png'
 import FDME from '../assets/FDME_thumbnail.png'
 import FLXO from '../assets/FlipXO_thumbnail.png'
 import DLVT from '../assets/dlv_thumbnail.png'
+import H24 from  '../assets/hobby24_thumbnail.jpg'
+import NXSS from '../assets/neXess_thumbnail.png'
 
 function Projects () {
     return(
@@ -76,6 +78,40 @@ function Projects () {
                         <i> Using: </i> JavaScript, CSS, JSX with the React framework.
                     "
                 />
+                <ProjCard
+                    time="2025"
+                    name="Hobby24"
+                    image={H24}
+                    description=" 
+                        <a href='https://group24-web-apps-ec221017.apps.a.comp-teach.qmul.ac.uk/' target='_blank'>
+                            Deployed site (live until May 2025)
+                        </a> <br />
+                        <a href='https://github.com/kdVincler/webProg_CWGroup' target='_blank'>
+                            GitHub repository
+                        </a> <br />
+                        A social media web application that recommends friends based on users' hobbies.  <br />
+                        <i> Using - Frontend: </i> Typescript, TailwindCss (& DaisyUI), Pinia, Vue Router with the Vue framework. <br />
+                        <i> Using - Backend: </i> Python, Miniconda, SQLite, Django, Django REST API, Selinium E2E testing
+                    "
+                />
+                <ProjCard
+                    time="2025"
+                    name="NeXess"
+                    image={NXSS}
+                    description=" 
+                        <b> Project is not deployed </b>
+                        <br />
+                        <a href='https://github.com/kdVincler/NeXess-frontend' target='_blank'>
+                            GitHub repository - Frontend
+                        </a> <br />
+                        <a href='https://github.com/kdVincler/NeXess_backend' target='_blank'>
+                            GitHub repository - Backend
+                        </a> <br />
+                        My Final Year Project for my BSc Comp. Sci. at QMUL. An android application for NFC-based access control. <br />
+                        <i> Using - Frontend: </i> Kotlin, Jetpack Compose UI, Ktor <br />
+                        <i> Using - Backend: </i> Python, Miniconda, SQLite, Django
+                    "
+                />
             </section>
         </div>
         )
@@ -84,7 +120,7 @@ function Projects () {
 function ProjCard ({time, name, image, description}) {
     return(
         <section className='card projCard'>
-            <img src={image} alt={name + " homescreen"} />
+            <img src={image} alt={name + " thumbnail"} />
             <div className='projText'>
                 <p className='one'>{time}</p>
                 <h2 className='two'>{name}</h2>
