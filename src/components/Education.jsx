@@ -13,7 +13,7 @@ function Education () {
                     Education
                 </h1>
                 <EduCard
-                    time="2022 - Present"
+                    time="2022 - 2025"
                     school="Queen Mary University of London"
                     degree="BSc (Hons) Computer Science"
                     comments="1st year - 88% <br /> 
