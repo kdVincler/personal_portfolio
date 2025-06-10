@@ -1,5 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
 
+/* 
+Seaction heading styling:
+font-bold text-3xl underline text-[#FFDD4A] 
+
+*/
 :root{
 	--bodyColour: #094074;
 	--tileColour: #3C6997;
@@ -9,13 +15,6 @@
 
 html {
 	scroll-behavior: smooth;
-}
-
-#particles canvas {
-  z-index: -100;
-  height: 100%;
-  width: 100%;
-  position: absolute;
 }
 
 body {
@@ -45,178 +44,3 @@ body {
     color: var(--textColour);
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
-.sectionHead {
-    font-weight: 400;
-    font-size: x-large;
-    font-weight: bolder;
-
-    color: var(--sectionHeaderColour);
-    text-decoration: underline;
-}
-
-.card {
-    margin-top: 3vh;
-    margin-bottom: 1.5vh;
-
-    border: 2px solid var(--textColour);
-    border-radius: 10px;
-    padding: 10px;
-}
-
-.one{
-    font-style: italic;
-    font-size: small;
-    margin-bottom: 0;
-}
-
-.two{
-    font-weight: bolder;
-    margin-top: 0.3vh;
-    margin-bottom: 0.3vh;
-}
-
-.three {
-    margin-top: 0;
-    margin-bottom: 0.5vh;
-    font-size: medium;
-}
-
-.container {
-	position: relative;
-	margin-top: 1.5vh;
-	margin-bottom: 40px;
-	align-self: center;
-	cursor: pointer;
-  }
-
-/*
-  from:
-  https://freefrontend.com/css-buttons/#google_vignette 
-  ->
-    https://codepen.io/katarzynamarta/pen/rNdbbVq
-*/
-/*
-.container .btn {
-	position: relative;
-	top: 0;
-	left: 0;
-	width: 15vw;
-	height: 3vh;
-	font-size: 1.3vh;
-	text-align: center;
-	margin: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.container .btn a {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background: rgba(255, 255, 255, 0.05);
-	box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
-	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-	border-top: 1px solid rgba(255, 255, 255, 0.1);
-	border-radius: 30px;
-	padding: 10px;
-	letter-spacing: 1px;
-	text-decoration: none;
-	overflow: hidden;
-	color: #fff;
-	font-weight: 400px;
-	z-index: 1;
-	transition: 0.5s;
-	backdrop-filter: blur(15px);
-}
-.container .btn:hover a {
-	letter-spacing: 3px;
-}
-.container .btn a::before {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 50%;
-	height: 100%;
-	background: linear-gradient(to left, rgba(255, 255, 255, 0.15), transparent);
-	transform: skewX(45deg) translate(0);
-	transition: 0.5s;
-	filter: blur(0px);
-}
-.container .btn:hover a::before {
-	transform: skewX(45deg) translate(200px);
-}
-.container .btn::before {
-	content: "";
-	position: absolute;
-	left: 50%;
-	transform: translatex(-50%);
-	bottom: -5px;
-	width: 30px;
-	height: 10px;
-	background: var(--bodyColour);
-	border-radius: 10px;
-	transition: 0.5s;
-	transition-delay: 0.5;
-}
-.container .btn:hover::before /*lightup button {
-	bottom: 0;
-	height: 50%;
-	width: 80%;
-	border-radius: 30px;
-}
-
-.container .btn::after {
-	content: "";
-	position: absolute;
-	left: 53.5%;
-	transform: translatex(-50%);
-	top: -5px;
-	width: 30px;
-	height: 10px;
-	background: var(--bodyColour);
-	border-radius: 10px;
-	transition: 0.5s;
-	transition-delay: 0.5;
-}
-.container .btn:hover::after /*lightup button {
-	top: 0;
-	height: 50%;
-	width: 80%;
-	border-radius: 30px;
-}
-.container .btn:nth-child(1)::before, /*chnage 1
-.container .btn:nth-child(1)::after {
-	background: var(--bodyColour);
-	box-shadow: 0 0 5px var(--bodyColour), 0 0 15px var(--bodyColour), 0 0 30px var(--bodyColour),
-		0 0 60px var(--bodyColour);
-}
-
-
-/* 
-	aligning the highlighter on buttons to the middle in
-	different configurations
-
-@media only screen and (max-width: 425px) {
-	.container .btn::after {
-		left: 62%;
-	}
-}
-
-@media only screen and (max-width: 768px) {
-	.container .btn::after {
-		left: 57%;
-	}
-}
-
-@media only screen and (max-width: 1024px) {
-	.container .btn::after {
-		left: 55%;
-	}
-} */
