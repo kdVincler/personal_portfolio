@@ -3,23 +3,29 @@
 
 /* 
 Seaction heading styling:
-font-bold text-3xl underline text-[#FFDD4A] 
+font-bold text-3xl underline text-yellow-300
 
-*/
+Previous colourscheme
 :root{
-	--bodyColour: #094074;
-	--tileColour: #3C6997;
-	--sectionHeaderColour: #FFDD4A;
-	--textColour: #ffffff;
+	--bodyColour: #094074; -> sky-900
+	--tileColour: #3C6997; -> slate-500
+	--sectionHeaderColour: #FFDD4A; -> yellow-300
+	--textColour: #ffffff; -> lightmode/darkmode changes it to black/white
 }
 
+instead of this i pivoted to a more apple website colourscheme
+bg             = blue-100 / slate-950
+tile           =  sky-50  /  gray-800
+section header = sky-600  / 
+text colour    =   black  / white
+normal button hover = always success green
+*/
 html {
 	scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
-  background-color: var(--bodyColour);
 }
 
 #root {
@@ -39,8 +45,6 @@ body {
     margin-top: 10vh;
     height: fit-content;
     padding: 20px 20px;
-    background-color: var(--tileColour);
     border-radius: 20px;
-    color: var(--textColour);
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }

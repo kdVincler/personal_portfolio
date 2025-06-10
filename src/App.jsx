@@ -11,7 +11,7 @@ function App() {
   document.title = "Konrad Vincler";
 
   return (
-    <div className='w-full'>
+    <div className='w-full bg-blue-100 dark:bg-slate-950'>
       <Navbar />
       <AboutMe /> 
       <Education />

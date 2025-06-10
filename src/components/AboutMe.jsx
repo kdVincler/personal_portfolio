@@ -1,8 +1,8 @@
 function AboutMe () {
     return(
-        <section className='tile aboutme'>
-             <div className=''> {/* typewriter */}
-                <h1 className="text-center pt-2 pb-2 text-2xl text-[#FFDD4A] font-bold">
+        <section className='tile aboutme bg-sky-50 dark:bg-gray-800'>
+             <div>
+                <h1 className="text-center pt-2 pb-2 text-2xl text-sky-600 font-bold">
                     Hello and Welcome!
                 </h1>
             </div>

@@ -6,13 +6,13 @@ function Education () {
     
     return(
         <div id='edu'>
-            <section className='tile education'>
-                <h1 className='font-bold text-3xl underline text-[#FFDD4A]'>
+            <section className='tile education bg-sky-50 dark:bg-gray-800'>
+                <h1 className='font-bold text-3xl underline text-sky-600'>
                     Education
                 </h1>
                 <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
                     <li>
-                        {/* <hr /> this tag is the connecting line, needed for expansion */}
+                        {/* <hr className="bg-black dark:bg-white"/> this tag is the connecting line, needed for expansion */}
                         <div className="timeline-middle">
                             <svg 
                                 xmlns="http://www.w3.org/2000/svg" 
@@ -43,10 +43,10 @@ function Education () {
                             3rd year - (N/A) <br />
                             On track to recieve a First class degree
                         </div>
-                        <hr />
+                        <hr className="bg-black dark:bg-white"/>
                     </li>
                     <li>
-                        <hr />
+                        <hr className="bg-black dark:bg-white"/>
                         <div className="timeline-middle">
                             <svg 
                                 xmlns="http://www.w3.org/2000/svg" 
@@ -76,15 +76,15 @@ function Education () {
                             Mathematics (A - 98%), English Language (A - 93%), Computer Science (A - 96%),
                             History (A - 88%) and Hungarian Language (A - 91%)
                         </div>
-                        {/* <hr /> this tag is the connecting line, needed for expansion */}
+                        {/* <hr className="bg-black dark:bg-white"/> this tag is the connecting line, needed for expansion */}
                     </li>
                 </ul>
-                <h1 className='mt-[3vh] font-bold text-3xl underline text-[#FFDD4A]'>
+                <h1 className='mt-[3vh] font-bold text-3xl underline text-sky-600'>
                     Certificates
                 </h1>
                 <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
                     <li>
-                        {/* <hr /> this tag is the connecting line, needed for expansion */}
+                        {/* <hr className="bg-black dark:bg-white"/> this tag is the connecting line, needed for expansion */}
                         <div className="timeline-middle">
                             <svg 
                                 xmlns="http://www.w3.org/2000/svg" 
@@ -108,10 +108,10 @@ function Education () {
                             <div className="text-lg pb-3">CS50 (online)</div>
                             Introduction to Computer Science online course
                         </div>
-                        <hr />
+                        <hr className="bg-black dark:bg-white"/>
                     </li>
                     <li>
-                        <hr />
+                        <hr className="bg-black dark:bg-white"/>
                         <div className="timeline-middle">
                             <svg 
                                 xmlns="http://www.w3.org/2000/svg" 
@@ -135,7 +135,7 @@ function Education () {
                             <div className="text-lg pb-3">Certificate in Advanced English</div>
                             Pass with an A grade and an overall score of 201. CEFR level: C2
                         </div>
-                        {/* <hr /> this tag is the connecting line, needed for expansion */}
+                        {/* <hr className="bg-black dark:bg-white"/> this tag is the connecting line, needed for expansion */}
                     </li>
                 </ul>
             </section>

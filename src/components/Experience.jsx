@@ -1,13 +1,13 @@
 function Experience () {
     return(
         <div id='exp'>
-            <section className='tile exp'>
-                <h1 className='font-bold text-3xl underline text-[#FFDD4A]'>
+            <section className='tile exp bg-sky-50 dark:bg-gray-800'>
+                <h1 className='font-bold text-3xl underline text-sky-600'>
                     Experience
                 </h1>
                 <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
                     <li>
-                        {/* <hr /> this tag is the connecting line, needed for expansion */}
+                        {/* <hr className="bg-black dark:bg-white"/> this tag is the connecting line, needed for expansion */}
                         <div className="timeline-middle">
                             <svg 
                                 xmlns="http://www.w3.org/2000/svg" 
@@ -34,7 +34,7 @@ function Experience () {
                             Helped students and marked their work for the following first year modules:
                             Logic and Discrete Structures and Automata and Formal Languages
                         </div>
-                        {/* <hr /> this tag is the connecting line, needed for expansion */}
+                        {/* <hr className="bg-black dark:bg-white"/> this tag is the connecting line, needed for expansion */}
                     </li>
                 </ul>
             </section>
