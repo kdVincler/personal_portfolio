@@ -41,7 +41,7 @@ function Education () {
                             1st year - 88% <br /> 
                             2nd year - 83% <br />
                             3rd year - (N/A) <br />
-                            On track to recieve a First class degree
+                            On track to receive a First class degree
                         </div>
                         <hr className="bg-black dark:bg-white"/>
                     </li>
