@@ -31,7 +31,7 @@ function Experience () {
                             <time className="font-mono italic">September 2023 - June 2025</time>
                             <div className="text-xl font-bold pb-1">Queen Mary University of London</div>
                             <div className="text-lg pb-3">Demonstrator</div>
-                            Helped students and marked their work for the following first year modules:
+                            Worked for the following modules:
                             Logic and Discrete Structures and Automata and Formal Languages
                         </div>
                         {/* <hr className="bg-black dark:bg-white"/> this tag is the connecting line, needed for expansion */}

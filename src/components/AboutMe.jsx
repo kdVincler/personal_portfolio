@@ -7,12 +7,11 @@ function AboutMe () {
                 </h1>
             </div>
             <p className='pb-2 text-center lg:text-justify font-bold text-lg'>
-                My name is Konrad Dominik Vincler and currently I am 
-                a university student in my final year for my Bachelors
-                degree in Computer Science.
+                My name is Konrad Dominik Vincler and I am recent graduate of Queen Mary University of London, 
+                where I recieved a First Class Bachelor's degree in Computer Science.
             </p>
             <p className='pb-2 text-center lg:text-justify font-bold text-lg'>
-                Apart from studying, I am striving to improve myself by gaining
+                Currently, I am striving to improve myself by gaining
                 experience through meaningful and impactful experiences.
             </p>
             <p className='pb-2 text-center lg:text-justify font-bold text-lg'>

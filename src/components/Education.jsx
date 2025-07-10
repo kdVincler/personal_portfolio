@@ -38,10 +38,10 @@ function Education () {
                             <time className="font-mono italic">2022 - 2025</time>
                             <div className="text-xl font-bold pb-1">Queen Mary University of London</div>
                             <div className="text-lg pb-3">BSc (Hons) Computer Science</div>
-                            1st year - 88% <br /> 
-                            2nd year - 83% <br />
-                            3rd year - (N/A) <br />
-                            On track to receive a First class degree
+                            Received a First Class Degree <br />
+                            1<sup>st</sup> year - 88% <br /> 
+                            2<sup>nd</sup> year - 83% <br />
+                            3<sup>rd</sup> year - 81%
                         </div>
                         <hr className="bg-black dark:bg-white"/>
                     </li>
@@ -72,9 +72,12 @@ function Education () {
                             <time className="font-mono italic">2018 - 2022</time>
                             <div className="text-xl font-bold pb-1">Fazekas Mihaly Secondary Grammar School Budapest</div>
                             <div className="text-lg pb-3">GCSE's</div>
-                            5 A grades in:
-                            Mathematics (A - 98%), English Language (A - 93%), Computer Science (A - 96%),
-                            History (A - 88%) and Hungarian Language (A - 91%)
+                            5 A grades in: <br /> 
+                            Mathematics (A - 98%), <br /> 
+                            English Language (A - 93%), <br /> 
+                            Computer Science (A - 96%), <br /> 
+                            History (A - 88%) <br /> 
+                            Hungarian Language (A - 91%)
                         </div>
                         {/* <hr className="bg-black dark:bg-white"/> this tag is the connecting line, needed for expansion */}
                     </li>
