@@ -24,7 +24,7 @@ function AboutMe () {
                 </div>
                 <p className='pb-2 text-center lg:text-justify font-bold text-lg'>
                     My name is Konrad Dominik Vincler and I am recent graduate of Queen Mary University of London, 
-                    where I recieved a First Class Bachelor's degree in Computer Science.
+                    where I received a First Class Bachelor's degree in Computer Science.
                 </p>
                 <p className='pb-2 text-center lg:text-justify font-bold text-lg'>
                     Currently, I am striving to improve myself by gaining
