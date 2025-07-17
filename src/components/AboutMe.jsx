@@ -4,11 +4,16 @@ function AboutMe () {
         <section className='tile aboutme bg-sky-50 dark:bg-gray-800 
                         flex lg:flex-row-reverse flex-col gap-4 items-center 
         '>
-            <img 
-                src={headshot} 
-                alt="Professional headshot of Konrad Vincler shot by IOA Photography (Insta.: @ioaphotography)" 
-                className='mask mask-squircle lg:w-[30%] w-[80%]'
-            />
+            <div  className='tooltip lg:w-[45%] w-[90%]'>
+                <div className='tooltip-content'>
+                    Photo taken by IOA Photography (Instagram: @ioaphotography)
+                </div>
+                <img 
+                    src={headshot} 
+                    alt="Professional headshot of Konrad Vincler taken by IOA Photography (Insta.: @ioaphotography)" 
+                    className='mask mask-squircle w-[100%]'
+                />
+            </div>
             <div>
                 <div className="flex items-center justify-center gap-2">
                     <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px" height="25px" />
