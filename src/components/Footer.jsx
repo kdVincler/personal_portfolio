@@ -23,7 +23,7 @@ function Footer ({dark}) {
                         </button>
                     </a>
                     <a 
-                        href='https://www.linkedin.com/in/konrad-dominik-vincler-55753225a/'
+                        href='https://www.linkedin.com/in/konradvincler'
                         target='_blank'
                     >
                         <button className="btn bg-black text-white border-black dark:bg-white dark:text-black dark:border-white w-[140px]">
