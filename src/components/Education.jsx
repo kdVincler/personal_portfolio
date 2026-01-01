@@ -11,6 +11,15 @@ function Education () {
                     Education
                 </h1>
                 <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+                    {/* 
+                        Usage: 
+                            - for items you want on the left side of the timeline, the div after the svg should have the className:
+                                "timeline-start mb-10 md:text-end"
+                            - for items you want on the right side of the timeline, the div after the svg should have the className:
+                                "timeline-end md:mb-10"
+                            - new items on the timeline need the whole <li> block
+                            - connecting lines are created with the <hr/> tags at BOTH the start and end of each <li> block
+                    */}
                     <li>
                         {/* <hr className="bg-black dark:bg-white"/> this tag is the connecting line, needed for expansion */}
                         <div className="timeline-middle">
@@ -86,6 +95,15 @@ function Education () {
                     Certificates
                 </h1>
                 <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+                    {/* 
+                        Usage: 
+                            - for items you want on the left side of the timeline, the div after the svg should have the className:
+                                "timeline-start mb-10 md:text-end"
+                            - for items you want on the right side of the timeline, the div after the svg should have the className:
+                                "timeline-end md:mb-10"
+                            - new items on the timeline need the whole <li> block
+                            - connecting lines are created with the <hr/> tags at BOTH the start and end of each <li> block
+                    */}
                     <li>
                         {/* <hr className="bg-black dark:bg-white"/> this tag is the connecting line, needed for expansion */}
                         <div className="timeline-middle">
